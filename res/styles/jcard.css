@@ -7,7 +7,7 @@
     var(--lengthJCardBackTemplate) - var(--lengthJCardBack)
   );
   --lengthJCardBackShort: 0.5in;
-  --lengthJCardBackStandard: .73in;
+  --lengthJCardBackStandard: .7in;
   --lengthJCardBackTemplate: var(--lengthJCardBackStandard);
   --lengthJCardBleed: 0.1in;
   --lengthJCardBleedMirror: -0.1in;
