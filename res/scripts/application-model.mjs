@@ -64,7 +64,7 @@ export const application = Object.freeze({
       }),
       backSize: new DataFormEntry({
         id: "back-size",
-        preset: 8,
+        preset: 7,
       }),
       bold: new DataFormEntry({
         id: "bold",
@@ -106,7 +106,7 @@ export const application = Object.freeze({
       }),
       footerSize: new DataFormEntry({
         id: "footer-size",
-        preset: 10,
+        preset: 8,
       }),
       forceCaps: new DataFormEntry({
         id: "force-caps",
@@ -122,7 +122,7 @@ export const application = Object.freeze({
       }),
       frontSize: new DataFormEntry({
         id: "front-size",
-        preset: 9,
+        preset: 6,
       }),
       frontTitleAlignment: new DataFormEntry({
         id: "front-title-alignment",
@@ -146,7 +146,7 @@ export const application = Object.freeze({
       }),
       noteSize: new DataFormEntry({
         id: "note-size",
-        preset: 10,
+        preset: 6,
       }),
       noteUpper: new DataFormEntry({
         id: "note-upper",
@@ -198,7 +198,7 @@ export const application = Object.freeze({
       }),
       titleLowerSize: new DataFormEntry({
         id: "title-lower-size",
-        preset: 12,
+        preset: 8,
       }),
       titleUpper: new DataFormEntry({
         id: "title-upper",
@@ -206,7 +206,7 @@ export const application = Object.freeze({
       }),
       titleUpperSize: new DataFormEntry({
         id: "title-upper-size",
-        preset: 12,
+        preset: 8,
       }),
     }),
     /** Load. */
