@@ -1,51 +1,52 @@
 #jcard .template {
-  --heightJCardCover: calc(
-    var(--lengthJCardCover) * var(--jCardCoverHeightFactor)
-  );
+--heightJCardCover: calc(
+  var(--lengthJCardCover) * var(--jCardCoverHeightFactor)
+);
 
-  --lengthJCardBack: var(--lengthJCardBackStandard);
+--lengthJCardBack: var(--lengthJCardBackStandard);
 
-  --lengthJCardBackDelta: calc(
-    var(--lengthJCardBackTemplate) - var(--lengthJCardBack)
-  );
+--lengthJCardBackDelta: calc(
+  var(--lengthJCardBackTemplate) - var(--lengthJCardBack)
+);
 
-  /* DAT inside / outside panel */
-  --lengthJCardBackShort: 2.756in;
-  --lengthJCardBackStandard: 2.756in;
-  --lengthJCardBackTemplate: var(--lengthJCardBackStandard);
+/* DAT back panel (outside art) */
+--lengthJCardBackShort: 2.756in;
+--lengthJCardBackStandard: 2.756in;
+--lengthJCardBackTemplate: var(--lengthJCardBackStandard);
 
-  /* DAT bleed (≈2mm) */
-  --lengthJCardBleed: 0.08in;
-  --lengthJCardBleedMirror: -0.08in;
-  --lengthJCardBleed2: 0.08in;
-  --lengthJCardBleed2Mirror: -0.08in;
+/* DAT bleed */
+--lengthJCardBleed: 0.08in;
+--lengthJCardBleedMirror: -0.08in;
+--lengthJCardBleed2: 0.08in;
+--lengthJCardBleed2Mirror: -0.08in;
 
-  /* Cover math preserved */
-  --lengthJCardCover: min(
-    var(--lengthJCardHeight),
-    var(--lengthJCardFront)
-  );
+/* Cover logic unchanged */
+--lengthJCardCover: min(
+  var(--lengthJCardHeight),
+  var(--lengthJCardFront)
+);
 
-  /* DAT front flap (tracks) */
-  --lengthJCardFront: 1.181in;
+/* DAT front flap (tracks) */
+--lengthJCardFront: 1.181in;
 
-  /* DAT case height */
-  --lengthJCardHeight: 2.756in;
+/* DAT height */
+--lengthJCardHeight: 2.756in;
 
-  --lengthJCardSpine: var(--lengthJCardSpineStandard);
+--lengthJCardSpine: var(--lengthJCardSpineStandard);
 
-  --lengthJCardSpineDelta: calc(
-    var(--lengthJCardSpineTemplate) - var(--lengthJCardSpine)
-  );
+--lengthJCardSpineDelta: calc(
+  var(--lengthJCardSpineTemplate) - var(--lengthJCardSpine)
+);
 
-  /* DAT spine */
-  --lengthJCardSpineShort: 0.394in;
-  --lengthJCardSpineStandard: 0.394in;
-  --lengthJCardSpineTemplate: var(--lengthJCardSpineStandard);
+/* DAT spine */
+--lengthJCardSpineShort: 0.394in;
+--lengthJCardSpineStandard: 0.394in;
+--lengthJCardSpineTemplate: var(--lengthJCardSpineStandard);
 
-  /* DAT spacing */
-  --spacerJCard: 0.08in;
-  --spacerJCardShortBack: 0.05in;
+/* Spacing scaled down */
+--spacerJCard: 0.08in;
+--spacerJCardShortBack: 0.05in;
+
 
 }
 
