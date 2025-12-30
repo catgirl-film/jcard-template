@@ -11,8 +11,8 @@
   --lengthJCardBackTemplate: var(--lengthJCardBackStandard);
   --lengthJCardBleed: 0.1in;
   --lengthJCardBleedMirror: -0.1in;
-  --lengthJCardBleed2: 0.25in;
-  --lengthJCardBleed2Mirror: -0.25in;
+  --lengthJCardBleed2: 0.1in;
+  --lengthJCardBleed2Mirror: -0.1in;
   --lengthJCardCover: min(var(--lengthJCardHeight), var(--lengthJCardFront));
   --lengthJCardFront:  2.12in;
   --lengthJCardHeight: 2.87in;
@@ -23,7 +23,7 @@
   --lengthJCardSpineShort: 0.4in;
   --lengthJCardSpineStandard: 0.5in;
   --lengthJCardSpineTemplate: var(--lengthJCardSpineStandard);
-  --spacerJCard: 0.15in;
+  --spacerJCard: 0.1in;
   --spacerJCardShortBack: 0.075i
 
 );
