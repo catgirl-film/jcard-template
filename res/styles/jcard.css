@@ -2,30 +2,51 @@
   --heightJCardCover: calc(
     var(--lengthJCardCover) * var(--jCardCoverHeightFactor)
   );
+
   --lengthJCardBack: var(--lengthJCardBackStandard);
+
   --lengthJCardBackDelta: calc(
     var(--lengthJCardBackTemplate) - var(--lengthJCardBack)
   );
-  --lengthJCardBackShort: 0.6in;
-  --lengthJCardBackStandard: 1in;
+
+  /* DAT inside / outside panel */
+  --lengthJCardBackShort: 2.756in;
+  --lengthJCardBackStandard: 2.756in;
   --lengthJCardBackTemplate: var(--lengthJCardBackStandard);
-  --lengthJCardBleed: 0.1in;
-  --lengthJCardBleedMirror: -0.1in;
-  --lengthJCardBleed2: 0.25in;
-  --lengthJCardBleed2Mirror: -0.25in;
-  --lengthJCardCover: min(var(--lengthJCardHeight), var(--lengthJCardFront));
-  --lengthJCardFront: 2.556in;
-  --lengthJCardHeight: 4in;
+
+  /* DAT bleed (≈2mm) */
+  --lengthJCardBleed: 0.08in;
+  --lengthJCardBleedMirror: -0.08in;
+  --lengthJCardBleed2: 0.08in;
+  --lengthJCardBleed2Mirror: -0.08in;
+
+  /* Cover math preserved */
+  --lengthJCardCover: min(
+    var(--lengthJCardHeight),
+    var(--lengthJCardFront)
+  );
+
+  /* DAT front flap (tracks) */
+  --lengthJCardFront: 1.181in;
+
+  /* DAT case height */
+  --lengthJCardHeight: 2.756in;
+
   --lengthJCardSpine: var(--lengthJCardSpineStandard);
+
   --lengthJCardSpineDelta: calc(
     var(--lengthJCardSpineTemplate) - var(--lengthJCardSpine)
   );
-  --lengthJCardSpineShort: 0.4in;
-  --lengthJCardSpineStandard: 0.5in;
+
+  /* DAT spine */
+  --lengthJCardSpineShort: 0.394in;
+  --lengthJCardSpineStandard: 0.394in;
   --lengthJCardSpineTemplate: var(--lengthJCardSpineStandard);
-  --spacerJCard: 0.15in;
-  --spacerJCardShortBack: 0.075in;
-  --widthJCardOutline: 1pt;
+
+  /* DAT spacing */
+  --spacerJCard: 0.08in;
+  --spacerJCardShortBack: 0.05in;
+
 }
 
 #font-size-test {
