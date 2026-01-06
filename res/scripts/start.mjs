@@ -72,9 +72,9 @@ populateDataSaves({
   footer: "Digital Audio Tape",
   noteUpper: "Recorded",
   noteLower: "August 2017",
-  sideALabel: "Side A",
+  sideALabel: " ",
   sideAContents: "One of Us\nTwo is the Shoe\nThree for Me\nFour Out the Door",
-  sideBLabel: "",
+  sideBLabel: " ",
   sideBContents:
     "",
 });
